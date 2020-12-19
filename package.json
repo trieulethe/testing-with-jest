@@ -7,6 +7,7 @@
     "dev": "nodemon ./bin/www",
     "debug": "DEBUG=testing101:* nodemon ./bin/www",
     "test": "jest",
+    "allure": "allure generate",
     "test:coverage": "jest --coverage=true"
   },
   "dependencies": {
@@ -23,6 +24,7 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "allure-commandline": "^2.13.0",
     "jest": "^26.1.0",
     "nodemon": "^2.0.4",
     "supertest": "^4.0.2"
